@@ -1,0 +1,5 @@
+ProjectTitle: blog-wp
+
+PageList:
+- file: page.html
+  ready: 50
