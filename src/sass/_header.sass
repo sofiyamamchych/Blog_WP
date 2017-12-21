@@ -1,12 +1,15 @@
 a
   color: #000
 
+@font-face
+  font-family: Bebas
+  src: url(..fonts/BEBAS.ttf)
+
 .header
   background-color: #fff
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1)
   position: fixed
   width: 100%
-  z-index: 3
+  
   ul
     margin: 0
     padding: 0
@@ -16,17 +19,27 @@ a
   li a
     display: block
     font-size: 12px;
-    
     text-decoration: none
+    font-size: 16px
+    font-family: Bebas
+    color: rgb(185, 185, 185)
+    line-height: 1.2
+    padding: 12px
+    text-align: center
     &:hover
       background-color: #f4f4f4
   .menu-btn:hover
     background-color: #f4f4f4
-  .logo
+    
+  .header__actualpage
+    color:  rgb(232, 96, 60)
+  .header__logo
     display: block
     float: left
-    padding: 10px 20px
+    padding-left: 10px 20px
     text-decoration: none
+    
+
   .menu
     clear: both
     max-height: 0
@@ -73,15 +86,19 @@ a
           &:before, &:after
             top: 0
 
+
+
 @media (min-width: 48em)
   .header
     li
       float: left
       a
-        padding: 20px 20px
+        padding: 20px 15px
     .menu
       clear: none
       float: right
       max-height: none
     .menu-icon
       display: none
+      
+
