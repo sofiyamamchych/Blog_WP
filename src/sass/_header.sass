@@ -7,8 +7,8 @@ a
 
 .header
   background-color: #fff
-  position: fixed
-  width: 100%
+  width: 80%
+  margin-left: 10%
   
   ul
     margin: 0
@@ -21,8 +21,9 @@ a
     font-size: 12px;
     text-decoration: none
     font-size: 16px
-    font-family: Bebas
+    @include default-font(16px)
     color: rgb(185, 185, 185)
+    
     line-height: 1.2
     padding: 12px
     text-align: center
@@ -89,6 +90,10 @@ a
             top: 0
 
 
+.header:after
+    content: ""
+    display: table
+    clear: both
 
 @media (min-width: 48em)
   .header
