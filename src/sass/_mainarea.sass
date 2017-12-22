@@ -17,8 +17,9 @@
   min-height: 300px
   background-color: green
   margin-left: 10%
-  margin-top: 12px  
+  margin-top: 12px 
   
+
 .postsarea__stats
   display: flex
   flex-direction: row
@@ -27,7 +28,11 @@
   line-height: 1.667
   padding-top: 24px
 
+.postsarea__text p
+  padding-bottom: 8px
   
+
+
 @media (min-width: 48em)
   .postsarea__stats
     flex-direction: column
@@ -37,3 +42,14 @@
     flex-direction: row
   .aside
     width: 25%
+  .postsarea__post:before
+    content: url(../img/icon1.png)
+    width: 75px
+    height: 75px
+    @include default-color 
+    font-size: 35px
+    padding: 15px 25px 0px 
+    position: absolute
+    margin-left: -87px
+  
+  
