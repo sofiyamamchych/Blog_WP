@@ -48,14 +48,27 @@
   color: rgb(160, 160, 160)
   line-height: 1.5
  
-.postarea__devider img
+.postarea__divider img
   width: 100%
 
-.postarea__devider
+.postarea__divider
   margin-top: 50px
   margin-bottom: 50px
 
 
+.postarea__pagenation a
+  text-decoration: none
+  @include default-font(14px)
+  color: rgb(255, 255, 255)
+  line-height: 1.286;
+  padding: 0px 9px 3px 9px
+  
+.color-muted
+  @include default-color-light
+  
+.color-active
+  @include default-color
+  
 @media (min-width: 48em)
   .postsarea__stats
     flex-direction: column
