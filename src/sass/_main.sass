@@ -1,11 +1,16 @@
 .block
 	display: flex
 	// remove this
-    
+ 
+
 
 @font-face
   font-family: Bebas
   src: url(../fonts/BEBAS.ttf)
+  
+@font-face
+  font-family: HelveticaNeue
+  src: url(../fonts/HelveticaNeue.ttf)
   
 
 =default-font($deffont)
@@ -19,4 +24,18 @@
 =default-color-light
   background-color: #f3af9d
   
+body
+  font-family: HelveticaNeue, sans-serif   
+  color: rgb(65, 65, 65)
   
+h4
+ @include default-font(18px)
+ text-align: left
+ line-height: 1
+ font-weight: 100
+ 
+h5
+  @include default-font(14px)
+  text-align: left
+  line-height: 1
+  font-weight: 100
