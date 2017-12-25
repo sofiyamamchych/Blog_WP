@@ -6,6 +6,8 @@ sayHello();
 
 $(document).ready(function() {
   $('.postsarea__carousel').slick({
-    autoplay: true
+    autoplay: true,
+    prevArrow: '.carousel-prev',
+    nextArrow: '.carousel-next'
   });
 });
