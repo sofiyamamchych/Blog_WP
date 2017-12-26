@@ -1,6 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon-facebook" viewBox="0 0 10 19">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg"><defs>
+        <style>
+            .cls-1{fill:#fff;fill-rule:evenodd;opacity:.9}
+        </style>
+    
+        <style>
+            .cls-1{fill:#fff;fill-rule:evenodd;opacity:.9}
+        </style>
+    </defs><symbol id="icon-facebook" viewBox="0 0 10 19">
     <title>
         facebook
     </title>
     <path d="M9.766.157v2.946H8.014c-.64 0-1.071.134-1.295.402-.223.268-.335.67-.335 1.205v2.11h3.27l-.435 3.303H6.384v8.471H2.97v-8.47H.123V6.82H2.97V4.387c0-1.384.387-2.457 1.161-3.22C4.904.404 5.934.023 7.222.023c1.093 0 1.941.045 2.544.134z" fill-rule="evenodd"/>
+</symbol><symbol id="icon-next" viewBox="0 0 35.469 52">
+    
+    <path id="next" class="cls-1" d="M855.633 340l25.822-26-25.822-26-9.633 9.564L862.324 314 846 330.436z" transform="translate(-846 -288)"/>
+</symbol><symbol id="icon-prev" viewBox="0 0 35.469 52">
+    
+    <path id="previous" class="cls-1" d="M273.836 288l-25.822 26 25.822 26 9.631-9.565L267.145 314l16.322-16.436z" transform="translate(-248 -288)"/>
 </symbol></svg>
