@@ -21,8 +21,8 @@
   
 .postsarea
   width: 90%
-  min-height: 300px
   margin-left: 9%
+  min-height: 300px
   margin-top: 12px 
   
 .postarea__slickimg
@@ -36,10 +36,19 @@
   flex-direction: row
   align-items: center
   
-.carousel__btn
-  fill: red
+.icon-prev, .icon-next
+  fill: white
+  opacity: 0.8
   font-size: 40px
   
+.carousel__prev, .carousel__next
+  z-index: 20
+  
+.carousel__prev
+  margin-right: -28px
+  
+.carousel__next
+  margin-left: -28px
 .postsarea__stats
   justify-content: space-around 
   color: #bababa;
