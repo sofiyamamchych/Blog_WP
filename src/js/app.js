@@ -7,7 +7,7 @@ sayHello();
 $(document).ready(function() {
   $('.postsarea__carousel').slick({
     autoplay: true,
-    prevArrow: '.icon-prev',
-    nextArrow: '.icon-next'
+    prevArrow: '.carousel__prevpng',
+    nextArrow: '.carousel__nextpng'
   });
 });
